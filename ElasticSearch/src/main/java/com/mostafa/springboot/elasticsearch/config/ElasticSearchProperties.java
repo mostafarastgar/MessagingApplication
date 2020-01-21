@@ -11,7 +11,6 @@ import org.springframework.stereotype.Component;
 @Getter
 @Setter
 public class ElasticSearchProperties {
-    private String clustername;
-    private String host;
-    private int port;
+    private String clusterName;
+    private String nodeAddress;
 }
