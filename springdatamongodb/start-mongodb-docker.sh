@@ -1,0 +1,1 @@
+docker run -p 27018:27017 -e 'MONGO_INITDB_DATABASE=mostafa-db' -e 'MONGO_INITDB_ROOT_USERNAME=root' -e 'MONGO_INITDB_ROOT_PASSWORD=example' -d mongo:4.0.4
